@@ -10,22 +10,18 @@ namespace _8_5___uzduotis
     {
         static void Main(string[] args)
         {
-            /*
-            int[] fib = new int[9];
-            var fib = 10;
-            var sk1 = 1;
-            var sk2 = 1;
-            var sk3 = 2;
-            Console.Write("1 1 ");
+            int[] fib = new int[10];
+            fib[1] = 1;
+            fib[2] = 1;
+            Console.Write("[1] [1] ");
 
-            for (int i = 2; i < fib; i++)
+            for (int i = 2; i < fib.Length; i++)
             {
-                sk3 = sk1 + sk2;
-                Console.Write(sk3 + " ");
-                sk1 = sk2;
-                sk2 = sk3;
-                }
-                */
+                fib[3] = fib[1] + fib[2];
+                Console.Write("[{0}] ", fib[3]);
+                fib[1] = fib[2];
+                fib[2] = fib[3];
+            }
         }
     }
 }
