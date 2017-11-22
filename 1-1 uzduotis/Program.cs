@@ -26,8 +26,8 @@ namespace _1_1_uzduotis
             Console.WriteLine("Ugis: " + ugis + " Svoris: " + svoris);
             Console.WriteLine("Aukstoji mokykla: " + aukstojiMokykla + " grupe: " + akademineGrupe + " kursas: " + kursas);
             Console.WriteLine("Studiju programa: " + studijuProgramosPvd + " Atsiskaityta kreditu: " + atsiskaitytuKredituSk);
+            Console.WriteLine("Studiju programa: {0} Atsiskaitytu kreditu skaicius: {1}", studijuProgramosPvd, atsiskaitytuKredituSk);
             //Console.ReadLine();
-
 
         }
     }
