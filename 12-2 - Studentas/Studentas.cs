@@ -78,7 +78,5 @@ namespace _12_2___Studentas
             }
             return didziausias1;
         }
-
-
     }
 }

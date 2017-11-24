@@ -40,7 +40,5 @@ namespace _12___Parduotuve
         {
             return PelnasIsPrekes() * Kiekis;
         }
-
-
     }
 }

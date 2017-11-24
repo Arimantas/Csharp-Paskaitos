@@ -44,7 +44,6 @@ namespace _12___Parduotuve
             Pavadinimas = pavadinimas;
             Adresas = adresas;
             Prekes = prekes;
-
         }
 
         public void SugeneruotiPrekes()
@@ -220,7 +219,5 @@ namespace _12___Parduotuve
             }
             return brangiausia;
         }
-
-
     }
 }
